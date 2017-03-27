@@ -31,3 +31,8 @@ console.log(comparate(6,3));
 console.log(comparate(3,6));
 console.log(comparate(6,6));
 
+function compil (n,c) {
+	return n + " " + c
+}
+
+console.log (compil (3,"poulets"));
