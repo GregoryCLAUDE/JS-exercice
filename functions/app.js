@@ -36,3 +36,9 @@ function compil (n,c) {
 }
 
 console.log (compil (3,"poulets"));
+
+function calling ( name, firstname, age){
+
+	return "Bonjour "+ name +" "+ firstname + ",tu as "+ age + " ans."
+}
+ console.log (calling("jean","peuplus",120));
