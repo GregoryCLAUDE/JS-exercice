@@ -42,3 +42,14 @@ function calling ( name, firstname, age){
 	return "Bonjour "+ name +" "+ firstname + ",tu as "+ age + " ans."
 }
  console.log (calling("jean","peuplus",120));
+
+
+function genderAge (gender, age){
+
+age = age>18? "majeur":"mineur";
+return gender ==="homme"? "tu es un homme et tu es "+ age : "tu es une femme et tu es "+ age;
+}
+console.log (genderAge("homme", 20));
+console.log (genderAge("homme", 12));
+console.log (genderAge("femme", 20));
+console.log (genderAge("femme", 12));
