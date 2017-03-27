@@ -6,4 +6,5 @@ var month = ["janvier","fevrier","mars","avril","mai","juin","juillet","aout","s
  var modif = month.splice(7,1,"août");
  console.log(month );
  var change = array.splice(5,0,"courgette");
-  
+ var add = array[4].splice(2,0,"Citron");
+ console.log(array);
